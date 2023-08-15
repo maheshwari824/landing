@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Styling for sections */
+#home {
+  background-color: #f4f4f4;
+}
+
+#about {
+  background-color: #e0e0e0;
+}
+
+#services {
+  background-color: #d4d4d4;
+}
+
+#contact {
+  background-color: #c0c0c0;
+}
+/* External CSS file */
+/* .my-element {
+    background-image: url(\Users\NRMY\Desktop\Landing\OIP.jpg);
+    background-size: cover; /* Adjust the background size as needed */
+    /* Other styling properties */
+  
+
+  body{
+    background-image: url('\Users\NRMY\Desktop\Landing\OIP.jpg');
+  }
